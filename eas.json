@@ -6,14 +6,14 @@
     "development": {
       "developmentClient": true,
       "distribution": "internal",
-      "channel": "dev"
+      "channel": "development"
     },
     "development-simulator": {
       "extends": "development",
       "ios": {
         "simulator": true
       },
-      "channel": "dev-simulator"
+      "channel": "development-simulator"
     },
     "preview": {
       "distribution": "internal",
@@ -23,7 +23,7 @@
       "channel": "staging"
     },
     "production": {
-      "channel": "main"
+      "channel": "production"
     }
   },
   "submit": {
